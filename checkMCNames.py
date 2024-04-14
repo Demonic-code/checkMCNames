@@ -1,7 +1,7 @@
 import requests
 import time
 
-def getName(username):
+def checkMCName(username):
     response = requests.get(f"https://api.mojang.com/users/profiles/minecraft/{username}")
     return response.status_code != 200
 
@@ -13,7 +13,7 @@ with open("nameList.txt") as fp:
         name = line.strip()
         if name.isalpha():
             if len(set(name)) <= 25 and len(set(name)) >= 3: 
-                if getName(name):
+                if checkMCName(name):
                     nameFile = open('nameFound.txt', 'a')
                     nameFile.write(f"{name}\n")
                     nameFile.close()
