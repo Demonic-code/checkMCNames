@@ -1,6 +1,6 @@
-# getName
+# checkMCNames
 Make a list of minecraft names you want to know if are available. 
-The code will make a list of the names that are available or will be in the future based on your list.
+The code checks the list of available names and compiles them in another txt file.
 
 Step 1.
 - Make sure you have the requirements install.
@@ -17,6 +17,6 @@ Step 2.
 - ![billede](https://github.com/Demonic-code/getName/assets/115573131/61d6b7ad-9742-476d-ad7e-09801a4275ee)
 
 Step 3.
-- Have the list "nameList.txt" and the file "getNames.py" in the same folder.
-- Open the file "getNames.py" and let it run.
+- Have the list "nameList.txt" and the file "checkMCNames.py" in the same folder.
+- Open the file "checkMCNames.py" and let it run.
 - Press enter to close then it's done.
