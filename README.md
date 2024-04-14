@@ -6,7 +6,7 @@ Step 1.
 - Make sure you have the requirements install.
 - you don't know how to install the requirements?
 - Open your folder:
-- ![billede](https://github.com/Demonic-code/getName/assets/115573131/3e1716ea-94bc-45b3-95a7-0b9a469343c7)
+- ![billede](https://github.com/Demonic-code/checkMCNames/assets/115573131/ca6a7833-7898-4f91-be96-4ac83b31aced)
 - write "cmd" and press enter:
 - ![billede](https://github.com/Demonic-code/getName/assets/115573131/18bb9594-1e7d-4386-aa3c-de5fc7c195e8)
 - use this command in the terminal "pip install -r requirements.txt":
